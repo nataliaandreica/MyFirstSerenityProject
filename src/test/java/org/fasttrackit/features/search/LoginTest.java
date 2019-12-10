@@ -22,6 +22,7 @@ public class LoginTest {
     @Test
     public void validLoginTest(){
 
+
         loginSteps.navigateToHomepage();
         loginSteps.goToLogin();
         loginSteps.enterCredentials("cosmin@fasttrackit.org","123456");
