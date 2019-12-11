@@ -27,6 +27,7 @@ public class LoginTest {
         loginSteps.goToLogin();
         loginSteps.enterCredentials("cosmin@fasttrackit.org","123456");
         loginSteps.clickLogin();
+
         loginSteps.checkLoggedIn("Hello, McFlono McFlooney Loo!");
     }
 }
